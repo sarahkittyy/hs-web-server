@@ -3,7 +3,28 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: happstack-server-7.5.4@sha256:ec4e33c543da50806cb1af1009a72b65aec96dbb710d95a2174480f84d5202d5,6407
+    pantry-tree:
+      size: 3201
+      sha256: 724cacc11a75d1f6d2de8cccf948f345ad6acaaa7f5bd135da1e63bc419a3e05
+  original:
+    hackage: happstack-server-7.5.4
+- completed:
+    hackage: bytestring-0.10.8.2@sha256:0a58355cb91bc9930f951a6d14f5fb4a6022647c3aab2b7223e888843bb6a832,8921
+    pantry-tree:
+      size: 2788
+      sha256: 5ebb0fddb2f9cdf4a295bbb610279ba7651547355d882942ad08c62efb00183c
+  original:
+    hackage: bytestring-0.10.8.2
+- completed:
+    hackage: aeson-1.4.5.0@sha256:451b48781e6f85102675778b54cd8f0e0cafa5bdf950c2989223cc22f9baa20e,6964
+    pantry-tree:
+      size: 40193
+      sha256: 2a66131492bcf981138f4723ea5c71058ce5b37b0f1b50db020321c1cee1545b
+  original:
+    hackage: aeson-1.4.5.0
 snapshots:
 - completed:
     size: 545658
